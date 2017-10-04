@@ -4,13 +4,13 @@ This is the Official Cosmic JS JavaScript Client which allows you to easily crea
 ### Getting started
 Go to [https://cosmicjs.com](https://cosmicjs.com), create an account and set up a Bucket.
 
-#### Install
+#### Quick Start
+1. Install Cosmic JS
 ```
 yarn add cosmicjs
 ```
 
-#### Quick Start
-1. Input your bucket/object slugs in index.html like as follows:
+2. Input your bucket/object slugs in index.html like as follows:
 ```
 var config = {
   bucket: {
@@ -22,7 +22,7 @@ var config = {
 };
 ```
 
-2. Start instant server
+3. Let get server awake
 ```
 go run server.go
 ```
