@@ -9,6 +9,24 @@ Go to [https://cosmicjs.com](https://cosmicjs.com), create an account and set up
 yarn add cosmicjs
 ```
 
+#### Quick Start
+1. Input your bucket/object slugs in index.html like as follows:
+```
+var config = {
+  bucket: {
+    slug: 'your-bucket-slug'
+  },
+  object: {
+    slug: 'your-object-slug'
+  }
+};
+```
+
+2. Start instant server
+```
+go run server.go
+```
+
 #### Usage
 ##### Include and Config
 ```javascript
