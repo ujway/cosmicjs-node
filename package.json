@@ -4,6 +4,7 @@
   "description": "The official client module for Cosmic JS. This module helps you easily add dynamic content to your website or application.",
   "main": "index.js",
   "dependencies": {
+    "cosmicjs": "^2.4.20",
     "es6-promise": "^3.0.2",
     "form-data": "^2.1.4",
     "isomorphic-fetch": "^2.2.0",
